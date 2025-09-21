@@ -10,5 +10,6 @@ public class MeshWidgetExampleTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.Add("MeshWidgetExample");
-	}
+        IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6;
+    }
 }
